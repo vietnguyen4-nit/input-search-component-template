@@ -4,3 +4,51 @@
 html{
     font-size: 16px;
 }
+
+
+.input-search-container {
+    width: 300px
+}
+
+.input {
+    border-radius: 4px;
+    line-height: 1.5em;
+    font-size: 16px;
+    padding: .5em 1em;
+    width: 100%
+}
+
+.search-result {
+    width: 100%;
+    position: relative;
+    border-radius: 4px;
+    min-height: 100px;
+    border: solid 1px #ddd;
+    margin-top: 4px
+}
+
+.lists {
+    display: flex;
+    flex-direction: column
+}
+
+.item {
+    padding: 1em 2em
+}
+
+.item:hover {
+    background-color: #eee;
+    cursor: pointer
+}
+
+.no-result {
+    font-style: italic;
+    color: #333;
+    text-align: center
+}
+
+.error-message {
+    color: red;
+    font-style: italic;
+    padding: .5em 1em
+}
